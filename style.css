@@ -10,7 +10,7 @@ html, body{
 
 
 body{
-    font-family: 'Montserrat', serif;
+    font-family: 'Montserrat';
     
 }
 
@@ -353,4 +353,13 @@ input[type=radio]:checked ~ .option {
     100% {
         background-position: 0 50%;
     }
+}
+
+@font-face {
+    font-family: 'Montserrat';
+    src: url('./font/Montserrat/static/Montserrat-Bold.ttf') format('embedded-opentype'), /* Internet Explorer */
+         url('./font/Montserrat/static/Montserrat-Bold.ttf') format('woff2'),             /* Super Modern Browsers */
+         url('./font/Montserrat/static/Montserrat-Bold.ttf') format('woff'),              /* Pretty Modern Browsers */
+         url('./font/Montserrat/static/Montserrat-Bold.ttf') format('truetype'),          /* Safari, Android, iOS */
+         url('./font/Montserrat/static/Montserrat-Bold.ttf') format('svg');               /* Legacy iOS */
 }
