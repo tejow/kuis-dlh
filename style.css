@@ -24,9 +24,11 @@ main{
     /*
     background-color: black;
     background: url('../assets/background_image.jpg');
-    background-position: center;
-    */
     background-color : black;
+    background-position: center;
+    background: linear-gradient(-45deg, red, green, blue, yellow);
+    */
+    background: linear-gradient(135deg, #00feba, #5b548a);
     background-repeat: no-repeat;
     background-size: 400% 400%;
     animation: animate 15s ease infinite;
@@ -182,7 +184,7 @@ input[type=radio]:checked ~ .option {
     width: 8rem;
     height: 2rem;
     border-radius: 10px;
-    background: white;
+    background: #00feba;
     color: rgb(25, 25, 25);
     font-weight: 600;
     border: 2px solid gray;
@@ -340,3 +342,15 @@ input[type=radio]:checked ~ .option {
     from {opacity: 0;}
     to {opacity: 1;}
   }
+
+@keyframes animate {
+    0% {
+        background-position: 0 50%;
+    }
+    50% {
+        background-position: 100% 50%;
+    }
+    100% {
+        background-position: 0 50%;
+    }
+}
