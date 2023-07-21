@@ -222,10 +222,10 @@ const questions = [
 
     {
         question: "Apa kepanjangan dari limbah B3?",
-        optionA: "a. Limbah Beracun dan Berbahaya",
-        optionB: "b. Limbah Berbahaya dan Beracun",
-        optionC: "c. Limbah Berbahaya dan Bereaktif",
-        optionD: "d. limbah beracun dan Bereaktif",
+        optionA: "a. Limbah Bahan Beracun dan Berbahaya",
+        optionB: "b. Limbah Bahan Berbahaya dan Beracun",
+        optionC: "c. Limbah Bahan Berbahaya dan Bereaktif",
+        optionD: "d. limbah Bahan Beracun dan Bereaktif",
         correctOption: "optionB"
     },
 
@@ -439,7 +439,7 @@ function checkForAnswer() {
     //checking if checked radio button is same as answer
     options.forEach((option) => {
         if (option.checked === true && option.value === currentQuestionAnswer) {
-            document.getElementById(correctOption).style.backgroundColor = "green"
+            document.getElementById(correctOption).style.backgroundColor = ""
             playerScore++
             indexNumber++
             //set to delay question number till when next question loads
@@ -451,7 +451,7 @@ function checkForAnswer() {
         else if (option.checked && option.value !== currentQuestionAnswer) {
             const wrongLabelId = option.labels[0].id
             document.getElementById(wrongLabelId).style.backgroundColor = "red"
-            document.getElementById(correctOption).style.backgroundColor = "green"
+            document.getElementById(correctOption).style.backgroundColor = ""
             wrongAttempt++
             indexNumber++
             //set to delay question number till when next question loads
@@ -522,10 +522,10 @@ function handleEndGame() {
     if (playerScore <= 3) {
         gradeColor = "red"
     }
-    else if (playerScore >= 4 && playerScore < 7) {
+    else if (playerScore >= 5 && playerScore < 8) {
         gradeColor = "orange"
     }
-    else if (playerScore >= 7) {
+    else if (playerScore >= 8) {
         gradeColor = "green"
     }
 
