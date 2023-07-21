@@ -569,6 +569,98 @@ const questions = [
         optionC: "c. N2O",
         optionD: "d. CFC",
         correctOption: "optionD"
+    },
+
+    /*Add new quest (2) */
+
+    {
+        question: "Berikut ini adalah Kelurahan yang dilewati Sungai Pekalongan:",
+        optionA: "a. Kelurahan Degayu",
+        optionB: "b. Kelurahan Panjang Wetan",
+        optionC: "c. Kelurahan Banyurip",
+        optionD: "d. Kelurahan  Pringlangu",
+        correctOption: "optionB"
+    },
+
+    {
+        question: "Apa kepanjangan dari IPAL?",
+        optionA: "a. Instalasi Pengolahan Air Limbah",
+        optionB: "b. Instalasi Pengelolaan Air Limbah",
+        optionC: "c. Instalasi Penjernihan Air Limbah",
+        optionD: "d. Instalasi Pengendapan Air Limbah",
+        correctOption: "optionA"
+    },
+
+    {
+        question: "Kewajiban pelaku industri batik dalam penglolaan lingkungan adalah sebagai berikut:",
+        optionA: "a. Membuang air limbah dengan lancar ke sungai",
+        optionB: "b. Meresapkan air limbah ke tanah agar tidak mencemari lingkungan",
+        optionC: "c. Membakar sampah agar tidak merusak estetika",
+        optionD: "d. Mengolah air limbah sebelum dibuang ke sungai.",
+        correctOption: "optionD"
+    },
+
+    {
+        question: "Berikut ini salah satu cara untuk mengolah air limbah batik, kecuali...",
+        optionA: "a. Mengolah limbah dengan bakteri",
+        optionB: "b. Menambah  zat kimia berupa PAC dan Polimer",
+        optionC: "c. Menetralkan Ph (derajat keasaman)",
+        optionD: "d. Meresapkan limbah ke tanah",
+        correctOption: "optionD"
+    },
+
+    {
+        question: "Sanksi bagi pelaku industry yang membuang air limbah langsung ke sungai adalah sebagai berikut, kecuali...",
+        optionA: "a. Pidana",
+        optionB: "b. Teguran tertulis",
+        optionC: "c. Penyitaan aset",
+        optionD: "d. Denda",
+        correctOption: "optionC"
+    },
+
+    {
+        question: "Berikut ini adalah tujuan utama dari mengolah limbah batik...",
+        optionA: "a. agar limbah yang dibuang sesuai dengan baku mutu yang dipersyaratkan",
+        optionB: "b. agar memperolah reward dari pemerintah",
+        optionC: "c. agar penjualan sampai ke negara negara Eropa",
+        optionD: "d. agar jumlah penjualan meningkat",
+        correctOption: "optionA"
+    },
+
+    {
+        question: "Arang batu bara (bottom ash)  hasil dari pembakaran pada boiler adalah termasuk limbah B3, cara pengelolaanya adalah sebagai berikut:",
+        optionA: "a. Ditimbun ditanah",
+        optionB: "b. Dibuang ke TPA",
+        optionC: "c. Dikerjasamakan dengan pihak ketiga yang sudah berizin",
+        optionD: "d. Dibuang di tengah laut",
+        correctOption: "optionC"
+    },
+
+    {
+        question: "Berikut ini adalah barang yang termasuk limbah B3, kecuali...",
+        optionA: "a. Baterai bekas",
+        optionB: "b. Lampu neon bekas",
+        optionC: "c. Jarum suntik bekas",
+        optionD: "d. Kaca bekas",
+        correctOption: "optionD"
+    },
+
+    {
+        question: "Berikut ini adalah tanaman yang cocok didaerah pantai:",
+        optionA: "a. Pohon manga",
+        optionB: "b. Pohon rambutan",
+        optionC: "c. Pohon angsana",
+        optionD: "d. Pohon ketapang",
+        correctOption: "optionD"
+    },
+
+    {
+        question: "Jika terjadi pencemaran lingkungan yang disebabkan oleh salah satu indutri, apa yang harus dilakukan oleh warga masyarakat?",
+        optionA: "a. Menegur pelaku industry agar tidak mencemari lingkungan",
+        optionB: "b. Melaporkan kepada kelurahan setempat",
+        optionC: "c. Melaporkan kepada dinas yang menangani lingkungan hidup",
+        optionD: "d. Jawaban a, b dan c benar.",
+        correctOption: "optionD"
     }
 
 ]
