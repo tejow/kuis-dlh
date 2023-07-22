@@ -3,10 +3,11 @@
     console.log(e);
  }); */
 
+// View in fullscreen
+ /*
  var elem = document.documentElement;
 
-/* View in fullscreen */
-/*function openFullscreen() {
+function openFullscreen() {
   if (elem.requestFullscreen) {
     elem.requestFullscreen();
   } else if (elem.webkitRequestFullscreen) { // Safari 
@@ -16,7 +17,8 @@
   }
 }
 
-openFullscreen(); */
+openFullscreen(); 
+*/
 
 //inisiasi soal dalam quiz
 
@@ -70,6 +72,7 @@ function checkForAnswer() {
     //checking to make sure a radio input has been checked or an option being chosen
     if (options[0].checked === false && options[1].checked === false && options[2].checked === false && options[3].checked == false) {
         document.getElementById('option-modal').style.display = "flex"
+        
     }
 
     //checking if checked radio button is same as answer

@@ -392,7 +392,7 @@ const questions = [
     },
 
     {
-        question: "Dalam prinsip 3R, Recycle memiliki arti...",
+        question: "Recycle dalam prinsip 3R memiliki arti...",
         optionA: "a. menggunakan ulang sampah",
         optionB: "b. mendaur ulang sampah",
         optionC: "c. mengurangi penggunaan sampah",
@@ -406,7 +406,7 @@ const questions = [
         optionB: "b. Reuse",
         optionC: "c. Recylce",
         optionD: "d. Replace",
-        correctOption: "optionD"
+        correctOption: "optionC"
     },
 
     {
@@ -661,6 +661,100 @@ const questions = [
         optionC: "c. Melaporkan kepada dinas yang menangani lingkungan hidup",
         optionD: "d. Jawaban a, b dan c benar.",
         correctOption: "optionD"
+    },
+
+    /*
+
+    {
+        question: "",
+        optionA: "a. ",
+        optionB: "b. ",
+        optionC: "c. ",
+        optionD: "d. ",
+        correctOption: ""
+    },
+
+    {
+        question: "",
+        optionA: "a. ",
+        optionB: "b. ",
+        optionC: "c. ",
+        optionD: "d. ",
+        correctOption: ""
+    },
+
+    {
+        question: "",
+        optionA: "a. ",
+        optionB: "b. ",
+        optionC: "c. ",
+        optionD: "d. ",
+        correctOption: ""
+    },
+
+    {
+        question: "",
+        optionA: "a. ",
+        optionB: "b. ",
+        optionC: "c. ",
+        optionD: "d. ",
+        correctOption: ""
+    },
+
+    {
+        question: "",
+        optionA: "a. ",
+        optionB: "b. ",
+        optionC: "c. ",
+        optionD: "d. ",
+        correctOption: ""
+    },
+
+    {
+        question: "",
+        optionA: "a. ",
+        optionB: "b. ",
+        optionC: "c. ",
+        optionD: "d. ",
+        correctOption: ""
+    },
+
+    {
+        question: "",
+        optionA: "a. ",
+        optionB: "b. ",
+        optionC: "c. ",
+        optionD: "d. ",
+        correctOption: ""
+    },
+
+    {
+        question: "",
+        optionA: "a. ",
+        optionB: "b. ",
+        optionC: "c. ",
+        optionD: "d. ",
+        correctOption: ""
+    },
+
+    {
+        question: "",
+        optionA: "a. ",
+        optionB: "b. ",
+        optionC: "c. ",
+        optionD: "d. ",
+        correctOption: ""
+    },
+
+    {
+        question: "",
+        optionA: "a. ",
+        optionB: "b. ",
+        optionC: "c. ",
+        optionD: "d. ",
+        correctOption: ""
     }
+    
+    */
 
 ]

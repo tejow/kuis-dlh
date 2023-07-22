@@ -48,6 +48,19 @@
 
         <div class="space">
         </div>
+              
+        <div class="modal-container" id="option-modal">
+          
+             <div class="modal-content-container">
+                  <h1>Pilih Jawaban Anda!</h1>
+               
+                  <div class="modal-button-container">
+                     <button onclick="closeOptionModal()">OK</button>
+                 </div>
+               
+             </div>
+          
+        </div>
 
         <div class="game-quiz-container">
           
@@ -62,19 +75,6 @@
 
             <div class="game-options-container">
               
-               <div class="modal-container" id="option-modal">
-                 
-                    <div class="modal-content-container">
-                         <h1>Pilih Jawaban Anda!</h1>
-                      
-                         <div class="modal-button-container">
-                            <button onclick="closeOptionModal()">OK</button>
-                        </div>
-                      
-                    </div>
-                 
-               </div>
-              
                 <span>
                     <input type="radio" id="option-one" name="option" class="radio" value="optionA" />
                     <label for="option-one" class="option" id="option-one-label"></label>
@@ -82,14 +82,14 @@
               
 
                 <span>
-                    <input type="radio" id="option-two" name="option" class="radio" value="optionB" />
-                    <label for="option-two" class="option" id="option-two-label"></label>
+                    <input type="radio" id="option-three" name="option" class="radio" value="optionC" />
+                    <label for="option-three" class="option" id="option-three-label"></label>
                 </span>
               
 
                 <span>
-                    <input type="radio" id="option-three" name="option" class="radio" value="optionC" />
-                    <label for="option-three" class="option" id="option-three-label"></label>
+                    <input type="radio" id="option-two" name="option" class="radio" value="optionB" />
+                    <label for="option-two" class="option" id="option-two-label"></label>
                 </span>
               
 
@@ -107,7 +107,7 @@
 
         </div>
     </main>
-    <script src="script.js"></script>
     <script src="db-question.js"></script>
+    <script src="script.js"></script>
 </body>
 </html>

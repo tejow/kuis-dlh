@@ -245,8 +245,28 @@ input[type=radio]:checked ~ .option {
     flex-direction: column;
     align-items: center;
     justify-content: center; 
+    /*
+    z-index: 1; 
+    position: fixed;
+    top: 0;
+    left: 0;
+    background: rgba(0, 0, 0, 0.7);
+    transition: opacity 500ms;
+    visibility: hidden;
+    opacity: 0;
+    */
+    /*
+    transition-duration: 1.2s;
+    transition-timing-function: cubic-bezier(.4, 0, .2, 1);
+    transition-property: transform, opacity, visibility;
+    -webkit-transition-duration: 1.2s;
+    -webkit-transition-timing-function: cubic-bezier(.4, 0, .2, 1);
+    -webkit-transition-property: transform, opacity, visibility;
+    */
     -webkit-animation: fadeIn 1.2s ease-in-out;
     animation: fadeIn 1.2s ease-in-out;
+    /*
+    */
 }
 
 .modal-content-container{
