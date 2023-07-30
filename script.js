@@ -84,7 +84,7 @@ function checkForAnswer() {
             //set to delay question number till when next question loads
             setTimeout(() => {
                 questionNumber++
-            }, 1000)
+            }, 150)
         }
 
         else if (option.checked && option.value !== currentQuestionAnswer) {
@@ -96,7 +96,7 @@ function checkForAnswer() {
             //set to delay question number till when next question loads
             setTimeout(() => {
                 questionNumber++
-            }, 1000)
+            }, 150)
         }
     })
 }

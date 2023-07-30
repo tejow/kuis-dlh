@@ -56,7 +56,7 @@ main{
 }
 
 .logo {
-    width: 96px;
+    width: 192px;
 }
 
 .logo img {
@@ -69,7 +69,7 @@ main{
 
 .logo ul {
     list-style-type: none;
-    text-align: left;
+    text-align: center;
 }
 
 .logo ul img {
